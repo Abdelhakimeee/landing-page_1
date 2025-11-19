@@ -3,51 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="log_text" rel="icon" href="/images/logo.png" type="image/png">
     <title>رواق نورة</title>
 
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+    
     <header class="header">
-        <div class="container">
-            <div class="logo">
+
+      <nav class="navbar"> 
                 <a href="index.html">
-                    <img src="logo.png" alt="رواق نورة Logo">
+                    <img class="nav-logo" src="/images/logo.png" alt="رواق نورة Logo">
                 </a>
-            </div>
-            <nav class="nav">
-                <ul>
+
+                <div class="nav-links" id="navLinks">
+                  <!-- <i class="fa fa-times" onclick="hideMenu()"></i> -->
+                  <ul> 
+                        <!--  to-do :   
+                          1 - كل button تاخذك ل
+                           section of them in the page () -->
                     <li><a href="index.html">الرئيسية</a></li>
                     <li><a href="about.html">من نحن</a></li>
                     <li><a href="courses.html">الدورات</a></li>
                     <li><a href="contact.html">اتصل بنا</a></li>
-                </ul>
-            </nav>
+                  </ul>
+                </div>
+      </nav>
+
+     
+      <section class="hero" >
+        <div class="hero-content">
+        <h1>رواق نورة</h1>
+        <h2 class="subtitle">كسوة دياغونار النسائية</h2>
+        <p class="tagline">أناقة  رقي   اختيارات فاخرة</p>
+        <a href="#catalog" class="btn">شوفي الموديلات</a>
         </div>
+      </section>
 
-         <section class="header">
-    <h1>رواق نورة</h1>
-    <h2 class="subtitle">كسوة دياغونار النسائية</h2>
-    <p class="tagline">أناقة  رقي   اختيارات فاخرة</p>
-    <a href="#catalog" class="btn">شوفي الموديلات</a>
-  </section>
 
-  <!--  -->  <!-- FEATURES -->
-  <section class="features">
-    <h2>قواعد التعامل</h2>
-    <div class="feature-items">
-      <div class="feature">
-        المنتج كما في الصورة ✔
-      </div>
-      <div class="feature">
-        رضاكم غايتنا ❤️
-      </div>
-      <div class="feature">
-        متخلص تاتقلب و تقيس 👗
-      </div>
-    </div>
-  </section>
+      <section class="rules">
+        <h2>قواعد التعامل</h2>
+        <ul>
+          <li>المنتج كما في الصورة %100  </li>
+          <li>متخلص تاتقلب و تقيس 👗</li>
+          <li>رضاكم غايتنا ❤️</li>
+        </ul>
+      </section>
+
 
 
   <!-- CATALOG -->
@@ -79,10 +82,12 @@
     <h2>تواصل معنا للطلب</h2>
     <button class="whatsapp" id="whatsappBtn">راسلينا على واتساب</button>
   </section>
-    </header>
-    
 
-        <!-- JavaScript -->
+
+
+    </header>
+
+    <!-- JavaScript -->
     <script src ="scripts.js"></script>
 </body>
 </html>
