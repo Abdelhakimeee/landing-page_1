@@ -57,7 +57,7 @@ body {
 
 .hero {
   padding: 20% ;
-  background-image: url('/images/hero-img.jpeg');
+  background-image: url('./images/hero-img.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
