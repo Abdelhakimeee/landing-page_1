@@ -14,7 +14,7 @@
 
       <nav class="navbar"> 
                 <a href="index.html">
-                    <img class="nav-logo" src="./images/logo.png" alt="رواق نورة Logo">
+                    <img class="nav-logo" src="./images/logo.png" alt="رواق نجمة ">
                 </a>
 
                 <div class="nav-links" id="navLinks">
@@ -30,22 +30,21 @@
                   </ul>
                 </div>
       </nav>
-
      
       <section class="hero" >
         <div class="hero-content">
-        <h1>رواق نورة</h1>
-        <h2 class="subtitle">كسوة دياغونار النسائية</h2>
-        <p class="tagline">أناقة  رقي   اختيارات فاخرة</p>
+        <h1>رواق نجمة</h1>
+        <h2 class="subtitle">كسوة دياغونار نسائية</h2>
+        <p class="tagline">أناقة رقي ختيار فاخرة</p>
         <a href="#catalog" class="btn">شوفي الموديلات</a>
         </div>
       </section>
 
 
       <section class="rules">
-        <h2>قواعد التعامل</h2>
+        <h2>قواعدنا</h2>
         <ul>
-          <li>المنتج كما في الصورة %100  </li>
+          <li>المنتج كما في الصورة 💯  </li>
           <li>متخلص تاتقلب و تقيس 👗</li>
           <li>رضاكم غايتنا ❤️</li>
         </ul>
@@ -53,28 +52,70 @@
 
 
 
+      <section class="video">
+        
+      </section>
+
   <!-- CATALOG -->
   <section id="catalog" class="catalog">
     <h2>الكتالوج</h2>
-    <p>اختاري من بين 11 موديل متوفر الآن</p>
+    <p>اختاري من بين 11 لون متوفر الآن</p>
 
+  <div class="catalog-container">
+    <video autoplay muted loop id="bg-video">
+        <source src="./images/videos/videoModel.MP4" type="video/mp4">
+      </video>
     <div class="grid">
-
-      <!-- 11 فريم جاهز للصور -->
-      <div class="item"><img src="./images/img1.jpg" alt=""></div>
-      <div class="item"><img src="./images/img2.jpg" alt=""></div>
-      <div class="item"><img src="./images/img3.jpg" alt=""></div>
-      <div class="item"><img src="./images/img4.jpg" alt=""></div>
-      <div class="item"><img src="./images/img5.jpg" alt=""></div>
-      <div class="item"><img src="./images/img6.jpg" alt=""></div>
-      <div class="item"><img src="./images/img7.jpg" alt=""></div>
-      <div class="item"><img src="./images/img8.jpg" alt=""></div>
-      <div class="item"><img src="./images/img9.jpg" alt=""></div>
-      <div class="item"><img src="./images/img10.jpg" alt=""></div>
-      <div class="item"><img src="./images/img11.jpg" alt=""></div>
+      <div class="item"><img src="./images/colorsImages/colAll.jpeg" alt=""></div>
+      <div class="item"><img src="./images/colorsImages/colBeage.jpeg" alt=""></div>
+      <div class="item"><img src="./images/colorsImages/colBleuroi.jpeg" alt=""></div>
+      <div class="item"><img src="./images/colorsImages/colGray.jpeg" alt=""></div>
+      <div class="item"><img src="./images/colorsImages/colBlack.jpeg" alt=""></div>
+      <div class="item"><img src="./images//colorsImages/colGrona.jpeg" alt=""></div>
+      <div class="item"><img src="./images/colorsImages/colBleu.jpeg" alt=""></div>
+      <div class="item"><img src="./images/colorsImages/colBrown.jpeg" alt=""></div>
+      <div class="item"><img src="./images/colorsImages/colVioler.jpeg" alt=""></div>
+      <div class="item"><img src="./images/colorsImages/colGreen.jpeg" alt=""></div>
+      <div class="item"><img src="./images/colorsImages/colMarin.jpeg" alt=""></div>
+      <div class="item"><img src="./images/colorsImages/colRed.jpeg" alt=""></div>
 
     </div>
+  </div>
+
   </section>
+
+  <div >
+    <form action="">
+      <label for="size">اختاري المقاس:</label>
+      <select name="size" id="size">
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+        <option value="XXL">XXL</option>
+      </select>
+      <label for="coler"> اختاري اللون :</label>
+      <select name="coler" id="coler">
+        <option value="Beage">بيج</option>
+        <option value="Bleuroi">أزرق فاتح</option>
+        <option value="Gray">رمادي</option>
+        <option value="Black">أسود</option>
+        <option value="Grona">أخضر فاتح</option>
+        <option value="Bleu">أزرق</option>
+        <option value="Brown">بني</option>
+        <option value="Violer">بنفسجي</option>
+        <option value="Green">أخضر</option>
+        <option value="Marin">كحلي</option>
+        <option value="Red">أحمر</option>
+      </select>
+      <label for="name">اسمك</label>
+      <input type="text" id="name" name="name" required>
+      <label for="phone">رقم الهاتف</label>
+      <input type="tel" id="phone" name="phone" required>
+      <button type="submit">إرسال الطلب</button>
+    </form>
+
+  </div>
 
 
   <!-- CONTACT -->
